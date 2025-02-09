@@ -1,5 +1,7 @@
 package org.example.day1;
 
+import org.example.day3.userdefinedfunction.SimpleClass;
+
 /**
  * @author Bibash Bogati
  * @created 2025-01-31
@@ -25,5 +27,8 @@ public class Callable {
             System.out.println("anotherDetail Average is greater than my.average");
         }
 
+
+//        SimpleClass simpleClass = new SimpleClass();
+//        simpleClass.test();
     }
 }
