@@ -4,6 +4,8 @@ package org.example.day6.abstraction.esewaexample;
  * @author Bibash Bogati
  * @created 2025-02-21
  */
+
+// grand father
 public abstract   class Payment {
     // properties
     public double commission = 10 ;

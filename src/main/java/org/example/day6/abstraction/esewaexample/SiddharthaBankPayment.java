@@ -8,7 +8,7 @@ package org.example.day6.abstraction.esewaexample;
 // multi level inheritence
 public class SiddharthaBankPayment extends BankPayment {
 
-    double siddharthaBankCommission = 1;
+    double siddharthaBankCommission = 5;
 
     public double payAmount(double amount) {
         return amount + getCommission();
@@ -18,7 +18,16 @@ public class SiddharthaBankPayment extends BankPayment {
     @Override
     public double getCommission() {
         System.out.println("SiddharthaBankPayment getCommission");
+        // super: 13.5
         return super.getCommission()  + siddharthaBankCommission;
     }
 
+
+    public  SiddharthaBankPayment() {
+
+    }
+
+    public  SiddharthaBankPayment(double amount) {
+
+    }
 }

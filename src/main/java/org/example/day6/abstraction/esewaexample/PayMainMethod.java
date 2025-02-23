@@ -13,6 +13,7 @@ public class PayMainMethod {
         // prepare api
 
 
+
         // payment type
         PaymentType paymentType = PaymentType.ESEWA;
         String  bankCode = "SIDDHARTHA";
