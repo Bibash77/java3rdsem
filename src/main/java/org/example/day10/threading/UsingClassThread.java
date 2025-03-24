@@ -11,7 +11,7 @@ public class UsingClassThread extends Thread {
         try {
             for (int i = 0; i < 10; i++) {
                 Thread.sleep(1000);
-                System.out.println("Role Creation for user " + i);
+                System.out.println("MAX PRIORITY:   Role Creation for user " + i);
 
             }
         } catch (InterruptedException e) {
